@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="js/mui.min.js" ></script>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav public-green-background">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">开通会员</h1>
+		</header>
+		<div class="mui-content ">
+		    <div class="open-vip-div public-content-padding">
+		    	<div class="vip-div-top">
+		    		<div class="div-active">
+		    			<img src="image/vip-1.jpg" />
+		    			<a>普通会员</a>
+		    		</div>
+		    		<div>
+		    			<img src="image/vip-2.jpg" />
+		    			<a>超级会员</a>
+		    		</div>
+		    		<p class="public-clear-both"></p>
+		    	</div>
+		    	<div class="vip-div-bottom" style="display: block;">
+		    		<ul class="mui-table-view mui-table-view-radio">
+						<li class="mui-table-view-cell  mui-selected" time="1" money="10">
+							<a class="mui-navigate-right">
+								<span class="vip-span">一个月</span><span class="vip-rmb">¥10</span>
+							</a>
+						</li>
+						<li class="mui-table-view-cell" time="3" money="30">
+							<a class="mui-navigate-right">
+								<span class="vip-span">三个月</span><span class="vip-rmb">¥30</span>
+							</a>
+						</li>
+						<li class="mui-table-view-cell" time="12" money="120">
+							<a class="mui-navigate-right">
+								<span class="vip-span">一年</span><span class="vip-rmb">¥120</span>
+							</a>
+						</li>
+					</ul>
+		    	</div>
+		    	<div class="vip-div-bottom" >
+		    		<ul class="mui-table-view mui-table-view-radio">
+						<li class="mui-table-view-cell  mui-selected" time="1" money="30">
+							<a class="mui-navigate-right">
+								<span class="vip-span">一个月</span><span class="vip-rmb">¥30</span>
+							</a>
+						</li>
+						<li class="mui-table-view-cell" time="3" money="88">
+							<a class="mui-navigate-right">
+								<span class="vip-span">三个月</span><span class="vip-rmb">¥88</span>
+							</a>
+						</li>
+						<li class="mui-table-view-cell" time="12" money="348">
+							<a class="mui-navigate-right">
+								<span class="vip-span">一年</span><span class="vip-rmb">¥348</span>
+							</a>
+						</li>
+					</ul>
+		    	</div>
+		    	<div class="vip-cost">
+						<span>需花费:</span>  <span class="cost2">￥10</span>
+				</div>
+				<div class="bottom-two-button">
+					<button class="c-btn1"><span>微信支付</span></button>
+					<button class="c-btn2"><span>支付宝支付</span></button>
+				</div>
+		    </div>
+		    <script>
+		    		var oB=document.getElementsByClassName('vip-div-top')[0];
+		    		var oD=oB.getElementsByTagName('div');
+//		    		alert(oD.length);
+                    var oC=document.getElementsByClassName('vip-div-bottom');
+//                  alert(oC.length);
+                    for(var i=0;i<oD.length;i++)
+  					{
+  						oD[i].index=i;
+  						oD[i].onclick=function(){
+  							for(var i=0;i<oD.length;i++)
+  							{
+  								oD[i].className='';
+								oC[i].style.display="none";
+  							}
+  							this.className='div-active';
+							oC[this.index].style.display="block";
+  							
+  						}
+  					}
+  					
+		    		
+		    		
+		    		
+		    		
+		         </script>
+	</body>
+
+</html>

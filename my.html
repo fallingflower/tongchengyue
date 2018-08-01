@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<script src="js/mui.js"></script>
+	</head>
+
+	<body>
+		
+		    
+		<div class="mui-content ">
+		    
+		    <div class=" personal-beijingtu">
+		    	<img src="image/bg0-lg.jpg"/>
+		    </div>
+		    <div class="personal-touxiang">
+		    	<img src="image/touxiang1.jpeg" />
+		    </div>
+		    <div class="personal-wenzi">
+		    	<p class="one">同城约</p>
+		    	<p class="two">同城约-约你想约的！</p>
+		    	
+		    </div>
+		    <div class="personal-menu public-white-bground">
+		    	<a><p>0</p><p>我发起的</p></a>
+		    	<a><p>0</p><p>我报名的</p></a>
+		    	<a><p>0</p><p>我收藏的</p></a>
+		    </div>
+		    <ul class="mui-table-view personal-list">
+		            <li class="mui-table-view-cell" id="gerenxinxi">
+		                <a class="mui-navigate-right iconfont ">
+		                    <span class="iconfont icon-gerenxinxi personal-list-icon lc"></span> <span>个人信息</span>
+		                </a>
+		            </li>
+		            <li class="mui-table-view-cell" id="zuijinfangke">
+		                <a class="mui-navigate-right">
+		                    <span class="iconfont icon-zuji personal-list-icon cg"></span> <span>最近访客</span>
+		                </a>
+		            </li>
+		            <li class="mui-table-view-cell" id="huiyuanzhongxin">
+		                <a class="mui-navigate-right">
+		                    <span class="iconfont icon-huiyuanzhongxin personal-list-icon yd"></span> <span>会员中心</span>
+		                	
+		                </a>
+		            </li>
+		    </ul>
+		    <ul class="mui-table-view personal-list">
+		            <li class="mui-table-view-cell" id="aboutus">
+		                <a class="mui-navigate-right">
+		                    <span class="iconfont icon-guanyuwomen personal-list-icon zh"></span> <span>关于我们</span>
+		                    
+		                </a>
+		            </li>
+		            <li class="mui-table-view-cell" id="setting">
+		                <a class="mui-navigate-right">
+		                    <span class="iconfont icon-shezhi personal-list-icon dy"></span> <span>设置</span>
+		                </a>
+		            </li>
+		          
+		        </ul>
+		    
+		<script src="js/castapp.js"></script>
+		<script>
+			ca.init();
+		
+			var setting= dj.id('setting');
+			setting.onclick = function(){
+				dj.newInterface({
+					url:'setting.html',
+					id:'setting'
+				})
+			}
+			var huiyuanzhongxin= dj.id('huiyuanzhongxin');
+			huiyuanzhongxin.onclick = function(){
+				dj.newInterface({
+					url:'vip-center.html',
+					id:'open-vip'
+				})
+			}
+			var aboutus= dj.id('aboutus');
+			aboutus.onclick = function(){
+				dj.newInterface({
+					url:'about-us.html',
+					id:'aboutus'
+				})
+			}
+			var gerenxinxi= dj.id('gerenxinxi');
+			gerenxinxi.onclick = function(){
+				dj.newInterface({
+					url:'personal.html',
+					id:'personal'
+				})
+			}
+			
+			
+		</script>
+	</div>
+	</body>
+
+</html>

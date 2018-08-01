@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="js/mui.js"></script>
+		<script type="text/javascript" src="js/mui.min.js" ></script>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav public-green-background">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">消息</h1>
+		</header>
+		<div class="mui-content message" >
+			<ul class="mui-table-view">
+			        <li class="mui-table-view-cell" id="message1">
+			        	<img src="image/touxiang1.jpeg" />
+			        	<span class="one">会飞的鱼</span>
+			            <a>这周末有时间吗，可以一起去吃饭吗？时间地点你定，我随时都有空的。</a> 
+			        </li>
+			       <li class="mui-table-view-cell" id="message2">
+			        	<img src="image/touxiang1.jpeg" />
+			        	<span class="one">  会飞的鱼</span>
+			            <a>这周末有时间吗，可以一起去吃饭吗？时间地点你定，我随时都有空的。</a> 
+			        </li>
+			        <li class="mui-table-view-cell" id="message3">
+			        	<img src="image/touxiang1.jpeg" />
+			        	<span class="one">  会飞的鱼</span>
+			            <a>这周末有时间吗，可以一起去吃饭吗？时间地点你定，我随时都有空的。</a> 
+			        </li>
+			    </ul>
+		</div>
+		<script src="js/dongyi.js"></script>
+		<script>
+			dj.init();
+			var message1 = dj.id('message1')
+			message1.onclick=function(){
+				dj.newInterface({
+					url:'chat.html',
+					id:'chat'
+				})
+			}
+				var message2 = dj.id('message2')
+			message2.onclick=function(){
+				dj.newInterface({
+					url:'chat.html',
+					id:'chat'
+				})
+			}
+			var message3 = dj.id('message3')
+			message3.onclick=function(){
+				dj.newInterface({
+					url:'chat.html',
+					id:'chat'
+				})
+			}
+			
+			
+		</script>
+	</body>
+
+</html>

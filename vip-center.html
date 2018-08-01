@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="js/mui.min.js" ></script>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav public-green-background">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">会员中心</h1>
+		</header>
+		<div class="mui-content">
+		    <div class="vip-center-style">
+		    	<p class="vip-tequan">会员特权</p>
+		    	<ul class="mui-table-view">
+		    	    <li class="mui-table-view-cell mui-media">
+		    	        <a href="javascript:;">
+		    	            <img class="mui-media-object mui-pull-left" src="image/v1.jpg">
+		    	            <div class="mui-media-body">
+		    	                <span>会员特权</span>
+		    	                <p class="mui-ellipsis">专享会员特权，尊贵如影随形</p>
+		    	            </div>
+		    	        </a>
+		    	    </li>
+		    	    <li class="mui-table-view-cell mui-media">
+		    	        <a href="javascript:;">
+		    	            <img class="mui-media-object mui-pull-left" src="image/v2.jpg">
+		    	            <div class="mui-media-body">
+		    	                <span>经验加速</span>
+		    	                <p class="mui-ellipsis">超级会员经验加速最高6倍</p>
+		    	            </div>
+		    	        </a>
+		    	    </li>
+		    	    <li class="mui-table-view-cell mui-media">
+		    	        <a href="javascript:;">
+		    	            <img class="mui-media-object mui-pull-left" src="image/v4.jpg">
+		    	            <div class="mui-media-body">
+		    	                <span>个性背景</span>
+		    	                <p class="mui-ellipsis">个人中心，个性背景.</p>
+		    	            </div>
+		    	        </a>
+		    	    </li>
+		    	</ul>
+		    	
+		    </div>
+		    <div style="height: 50px;"></div>
+			<div class="bottom-btn">
+				<button id="vip">开通会员</button>
+			</div>
+		</div>
+	<script type="text/javascript" src="js/dongyi.js" ></script>
+	<script>
+		dj.init();
+		var vip= dj.id('vip');
+			vip.onclick = function(){
+				dj.newInterface({
+					url:'open-vip.html',
+					id:'openvip'
+				})
+			}
+			
+	</script>
+	</body>
+	
+
+</html>

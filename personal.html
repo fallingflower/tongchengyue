@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="js/mui.min.js" ></script>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav public-green-background">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <a class="mui-btn mui-btn-link mui-pull-right" id="xiugai">修改</a>
+		    <h1 class="mui-title">个人信息</h1>
+		</header>
+		<div class="mui-content">
+		    <div class="jiyu jiyu1 change-message">
+		    	<span class="jiyu-span">基本资料</span>
+		         <form class="mui-input-group">
+		             <div class="mui-input-row">
+		                 <label>昵称</label>
+		                 <input type="text" class="" placeholder="会飞的鱼">
+		             </div>
+		             <div class="mui-input-row">
+		                 <label>年龄</label>
+		                 <input type="text" class="" placeholder="28">
+		             </div>
+		             <div class="mui-input-row">
+		                 <label>身高</label>
+		                 <input type="text" class="" placeholder="167">
+		             </div>
+		         </form>
+		         <div class="mui-input-row">
+			        <ul class="mui-table-view">
+			                <li class="mui-table-view-cell">
+			                    <a class="mui-navigate-right">
+			                        <span>性别</span>
+			                        <span class="span2">女</span>
+			                    </a>
+			        </ul>
+			    </div>
+		    </div>
+		       <div class="jiyu jiyu1 change-message">
+		    	<span class="jiyu-span">详细资料</span>
+		         <form class="mui-input-group">
+		             <div class="mui-input-row">
+		                 <label>签名</label>
+		                 <input type="text" class="" placeholder="追逐幸福">
+		             </div>
+		             <div class="mui-input-row">
+		                 <label>月薪</label>
+		                 <input type="text" class="" placeholder="10K">
+		             </div>
+		         </form>
+		         <div class="mui-input-row">
+			        <ul class="mui-table-view">
+			                <li class="mui-table-view-cell">
+			                    <a >
+			                        <span>地区</span>
+			                        <span class="span2">江苏</span>
+			                    </a>
+			        </ul>
+			    </div>
+			    <div class="mui-input-row">
+			        <ul class="mui-table-view">
+			                <li class="mui-table-view-cell">
+			                    <a >
+			                        <span>职业</span>
+			                        <span class="span2">程序员</span>
+			                    </a>
+			        </ul>
+			    </div>
+		         <div class="mui-input-row">
+			        <ul class="mui-table-view">
+			                <li class="mui-table-view-cell">
+			                    <a >
+			                        <span>情感</span>
+			                        <span class="span2">保密</span>
+			                    </a>
+			        </ul>
+			    </div>
+			    <div class="mui-input-row">
+			        <ul class="mui-table-view">
+			                <li class="mui-table-view-cell">
+			                    <a class="mui-navigate-right">
+			                        <span>抽烟</span>
+			                        <span class="span2">否</span>
+			                    </a>
+			        </ul>
+			    </div>
+			    <div class="mui-input-row">
+			        <ul class="mui-table-view">
+			                <li class="mui-table-view-cell">
+			                    <a >
+			                        <span>喝酒</span>
+			                        <span class="span2">否</span>
+			                    </a>
+			        </ul>
+			    </div>
+		    </div>
+		</div>
+		<script type="text/javascript" src="js/dongyi.js" ></script>
+		<script>
+			dj.init();
+			var xiugai= dj.id('xiugai');
+			xiugai.onclick = function(){
+				dj.newInterface({
+					url:'change-personal-message.html',
+					id:'change'
+				})
+			}
+		</script>
+	    
+	</body>
+
+</html>

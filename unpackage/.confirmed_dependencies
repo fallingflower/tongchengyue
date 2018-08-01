@@ -1,0 +1,291 @@
+{
+  "home.html": {
+    "resources": [
+      "image/touxiang2.jpeg",
+      "image/touxiang1.jpeg",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "css/style.css",
+      "js/dongyi.js",
+      "js/castapp.js",
+      "js/mui.js"
+    ],
+    "refer": [
+      "details.html",
+      "details2.html",
+      "release.html",
+      "see-marry.html"
+    ]
+  },
+  "index.html": {
+    "resources": [
+      "home.html",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "css/style.css",
+      "message.html",
+      "release.html",
+      "js/castapp.js",
+      "js/dongyi.js",
+      "js/mui.js"
+    ],
+    "refer": [
+      "message.html",
+      "home.html",
+      "my.html",
+      "release.html",
+      "personal.html"
+    ]
+  },
+  "my.html": {
+    "resources": [
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "css/style.css",
+      "image/bg0-lg.jpg",
+      "image/touxiang1.jpeg",
+      "css/iconfont.css",
+      "js/dongyi.js",
+      "js/mui.js",
+      "js/castapp.js"
+    ],
+    "refer": [
+      "setting.html",
+      "about-us.html",
+      "open-vip.html",
+      "personal.html",
+      "vip-center.html"
+    ]
+  },
+  "release.html": {
+    "resources": [
+      "css/iconfont.css",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "css/style.css"
+    ],
+    "refer": []
+  },
+  "message.html": {
+    "resources": [
+      "css/style.css",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "js/dongyi.js",
+      "js/mui.js",
+      "image/touxiang1.jpeg",
+      "js/mui.min.js"
+    ],
+    "refer": [
+      "login.html",
+      "chat.html"
+    ]
+  },
+  "report.html": {
+    "resources": [
+      "fonts/mui.ttf",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "css/style.css",
+      "details.html"
+    ],
+    "refer": []
+  },
+  "bm-message.html": {
+    "resources": [
+      "image/touxiang2.jpeg",
+      "fonts/mui.ttf",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "css/style.css"
+    ],
+    "refer": []
+  },
+  "personal.html": {
+    "resources": [
+      "image/bg0-lg.jpg",
+      "image/touxiang1.jpeg",
+      "fonts/mui.ttf",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "css/style.css",
+      "js/dongyi.js",
+      "js/mui.min.js"
+    ],
+    "refer": [
+      "change-personal-message.html"
+    ]
+  },
+  "open-vip.html": {
+    "resources": [
+      "image/vip-1.jpg",
+      "fonts/mui.ttf",
+      "image/vip-2.jpg",
+      "css/mui.min.css",
+      "css/style.css"
+    ],
+    "refer": []
+  },
+  "setting.html": {
+    "resources": [
+      "fonts/mui.ttf",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "css/style.css",
+      "js/mui.min.js"
+    ],
+    "refer": [
+      "security.html"
+    ]
+  },
+  "login.html": {
+    "resources": [
+      "js/dongyi.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "css/style.css",
+      "js/mui.js",
+      "js/castapp.js"
+    ],
+    "refer": [
+      "register.html",
+      "for-getpasswword.html",
+      "my.html",
+      "index.html"
+    ]
+  },
+  "for-getpasswword.html": {
+    "resources": [
+      "for-getpasswword.html",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "css/style.css",
+      "js/mui.js"
+    ],
+    "refer": [
+      "for-getpasswword.html"
+    ]
+  },
+  "register.html": {
+    "resources": [
+      "register.html",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "css/style.css",
+      "js/mui.js",
+      "js/dongyi.js",
+      "js/mui.min.js",
+      "js/castapp.js"
+    ],
+    "refer": [
+      "register.html"
+    ]
+  },
+  "jiekouceshi.html": {
+    "resources": [
+      "js/dongyi.js",
+      "css/mui.min.css",
+      "js/mui.js",
+      "fonts/mui.ttf"
+    ],
+    "refer": []
+  },
+  "report-marry.html": {
+    "resources": [
+      "fonts/mui.ttf",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "css/style.css",
+      "js/mui.js"
+    ],
+    "refer": []
+  },
+  "details.html": {
+    "resources": [
+      "js/mui.min.js",
+      "image/touxiang3.jpeg",
+      "fonts/mui.ttf",
+      "js/dongyi.js",
+      "image/touxiang1.jpeg",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "css/style.css",
+      "chat.html",
+      "report.html"
+    ],
+    "refer": []
+  },
+  "details2.html": {
+    "resources": [
+      "js/mui.min.js"
+    ],
+    "refer": []
+  },
+  "chat.html": {
+    "resources": [
+      "js/mui.min.js",
+      "image/touxiang3.jpeg",
+      "image/touxiang2.jpeg",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "css/style.css",
+      "fonts/mui.ttf",
+      "details.html"
+    ],
+    "refer": []
+  },
+  "about-us.html": {
+    "resources": [
+      "image/logo-g-1.png"
+    ],
+    "refer": []
+  },
+  "vip-center.html": {
+    "resources": [
+      "image/v2.jpg",
+      "image/v1.jpg",
+      "image/v4.jpg",
+      "js/dongyi.js",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "css/style.css"
+    ],
+    "refer": [
+      "open-vip.html"
+    ]
+  },
+  "welcome.html": {
+    "resources": [
+      "js/dongyi.js",
+      "js/mui.min.js",
+      "image/logo-g-1.png",
+      "css/mui.min.css",
+      "css/style.css"
+    ],
+    "refer": [
+      "login.html"
+    ]
+  },
+  "see-marry.html": {
+    "resources": [
+      "image/touxiang3.jpeg"
+    ],
+    "refer": [
+      "report-marry.html",
+      "chat.html"
+    ]
+  },
+  "phone-binding.html": {
+    "resources": [
+      "image/phone.jpg"
+    ]
+  },
+  "security.html": {
+    "refer": [
+      "change-pw.html",
+      "phone-binding.html"
+    ]
+  }
+}

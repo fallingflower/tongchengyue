@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="js/mui.js"></script>
+		<script src="js/mui.min.js"></script>
+	</head>
+
+	<body class="public-white-bground">
+		<header class="mui-bar mui-bar-nav public-green-background ">
+		     <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">注册</h1>
+		</header>
+
+		<div class="mui-content public-white-bground">
+			<div class="login-style">
+		        <form class="mui-input-group" action="javascript:;">
+		            <div class="mui-input-row">
+		               <label><span class="mui-icon mui-icon-person"></span></label>
+		               <input type="text" class="mui-input-clear" placeholder="请输入手机号码">
+		            </div>
+		            <div class="mui-input-row">
+		               <label><span class="mui-icon mui-icon-paperplane"></span></label>
+		               <input type="text" class="mui-input-clear" placeholder="请输入验证码">
+		               <button class="yzm-button" id="send_code">获取验证码</button>
+		            </div>
+		            <div class="mui-input-row">
+		               <label><span class="mui-icon mui-icon-locked"></span></label>
+		               <input  type="password" class=" mui-input-clear" placeholder="请输入密码">
+		            </div>
+		         
+		        </form>
+		    </div >
+		    <div class="login-button">
+		    	<button class="button-g-w-bground" id="btn">注册</button>
+		    </div>  
+		</div>
+        <script type="text/javascript" src="js/castapp.js" ></script>
+	    <script>
+	    	dj.init();
+		
+		var btn = dj.id('btn');
+		var send_code = dj.id('send_code');
+		var input = dj.tagName('input');
+		
+		var onoff = true;
+		var code = '';
+		
+		//发送验证码
+		send_code.onclick=function(){
+			
+			if(!onoff){
+				return;
+			}
+			onoff = false;
+			
+			//获得手机号码
+			var phone = input['0'].value;
+			if(phone == ''){
+				dj.prompt('手机号码不能为空');
+				return;
+			}
+			if(phone.length != 11){
+				dj.prompt('手机号码输入错误');
+				return;
+			}
+			
+			// 生成验证码 4位的数
+			code =parseInt(Math.random()*9999+1000);
+			alert(code);
+			
+			
+			}
+			btn.onclick=function(){
+				var phone =input['0'].value;
+				var input_code = input['1'].value;
+				var password = input['2'].value;
+				
+				if(phone==''){
+					dj.prompt('手机号不能为空');
+					return;
+					
+				}
+				if(phone.length != 11){
+					dj.prompt('手机号输入错误');
+					return;
+				}
+				if(input_code==''){
+					dj.prompt('验证码不能为空');
+					return;
+				}
+				if(input_code != code){
+					dj.prompt('验证码输入错误');
+					return;
+				}
+				if(password ==''){
+					dj.prompt('密码不能 为空');
+					return;
+					
+				}
+				if(password.length<6){
+					dj.prompt('密码位数不能少于6位');
+					return;
+				}else{
+					alert('注册成功');
+				}
+				dj.newInterface({
+					url:'login.html',
+					id:'login'
+				})
+	
+				
+				
+				
+				var request_url = 'http://192.168.168.1/www/tongchengyue/index.php/Login/register';
+				
+				
+				
+				castapp.get({
+					url:request_url,
+					data:{
+						phone_data:phone,
+						password_data:password
+					},
+					succFn:function(data){
+						if(data == 1){
+							dj.prompt('注册成功');
+						}else if(data == 0){
+							dj.prompt('注册失败');
+						}else if(data == 2)
+						{
+							dj.prompt('该手机号码已注册');
+						}
+                       
+				}
+			
+				
+				})
+				
+				
+				
+				
+			}
+			
+			
+			
+			
+			
+			
+	    </script>
+	</body>
+		
+
+</html>

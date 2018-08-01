@@ -1,0 +1,886 @@
+/*设置绿色背景*/
+.public-green-background{
+	background: #12A86B;
+}
+.public-green-background a,.public-green-background h1{
+	color: #FFFFFF;
+}
+.mui-title,.mui-pull-right,.mui-pull-left
+{
+	color: #FFFFFF !important;
+/*	font-size:10px;*/
+}
+
+.shaixuan,.fabu{
+	-webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+   /*border: 1px solid red;*/
+	
+} 
+/*设置白色背景*/
+.public-white-bground{
+	background: #fff !important;
+}
+/*设置app页面*/
+.welcome-logo{
+	text-align: center;
+	margin-top: 60px;
+}
+.welcome-logo img{
+	width:300px;
+}
+.btn-style{
+	width: 100%;
+	position: absolute;
+	bottom: 40px;
+	text-align: center;
+}
+.btn-style button{
+	margin: 0px 15px;
+}
+.btn-zhuce-style{
+	background: #FFFFFF;
+	color: #12A86B;
+	border: 1px solid #FFFFFF;
+	padding: 10px 30px;
+}
+.btn-denglu-style{
+	background:#12A86B;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	padding: 10px 30px;
+	
+}
+/*登陆页面设置*/
+.login-style{
+	/*border: 1px solid #000000;*/
+	margin-top: 35%;
+	padding: 0px 25px 0px 15px;
+	
+}
+.login-style form div span{
+	color: #12A86B;
+}
+.login-style .mui-input-group:before{
+	height: 0px;
+}
+.login-style .mui-input-group .mui-input-row:after{
+	background-color: #12A86B;
+}
+.login-style .mui-input-group:after{
+	height: 0px;
+	
+}
+/*登陆页面文本输入框设置*/
+.mui-input-row label {
+/*	border: 1px solid red;*/
+	width:10%;
+}
+.mui-input-row label~input {
+	/*border: 1px solid blue;*/
+	width:85%;
+	/*position: relative;
+	bottom: 0px;*/
+}
+
+/*登录页面的登陆按钮设置*/
+.login-button{
+	text-align: center;
+	/*border: 1px solid red;*/
+}
+.login-button button{
+	width:86%;
+	margin-left: 3px;
+	margin-top: 10%;
+}
+/*设置登录按钮绿底白字*/
+.button-g-w-bground{
+	background:#12A86B ;
+	color: #FFFFFF;
+	padding: 10px 0px;
+}
+.login-a{
+	/*border: 1px solid red;*/
+	text-align: center;
+	margin-top: 15px;
+}
+.login-a a{
+	margin: 60px;
+	color: #999;
+	font-size: 12px;
+	
+}
+/*注册页面验证码*/
+.yzm-button{
+	position: absolute;
+	right: 0px;
+	top:5px;
+	color: #999999;
+	padding: 3px 10px;
+}
+.denglu-b a{
+	position: absolute;
+    right:25px;
+    margin-top: 20px;
+    color: #999999;
+}
+/*首页图标设置 */
+.mui-grid-view.mui-grid-9
+{
+	background: #FFFFFF;
+}
+.mui-grid-view.mui-grid-9 .mui-table-view-cell{
+	border-right: 0px;
+	border-bottom: 0px;
+}
+.home-menu ul li{
+	width: 25%;
+}
+/*.mui-media-body{
+	margin-bottom: 5px;
+	border: 1px solid red;
+}*/
+/*用户列表设置*/
+.mui-ellipsis{
+	font-size: 15px;
+	margin: 5px 0px 0px 0px;
+}
+.user{
+	font-size: 20px;
+	margin:10px 0px !important;
+}
+.user-home .public-right-text{
+/*	border: 1px solid red;*/
+	color: #999 !important;
+	
+}
+.public-menu-icon {
+	background: #7788F2;
+	color: #FFFFFF;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 100px;
+	font-size: 25px !important;
+}
+.cf{
+	background:#FF8924 ;
+	
+	
+}
+.dy{
+	background:#EA6644 ;
+	
+	
+	
+}
+.cg{
+	background: #66CCEE;
+	
+	
+}
+.yd{
+	background:#F7BC61 ;
+	
+	
+}
+.lc{
+	background: #F57673;
+	
+	
+	
+}
+.zh{
+	background: #F08FB3;
+	
+	
+	
+}
+.qt{
+	background: #8C3537;
+		
+}
+/*用户列表设置*/
+.user-home{
+	margin: 8px 0px;
+}
+.user-list ul li a img{
+	width: 75px !important;
+	height: 75px !important;
+/*	line-height: 70px;*/
+	max-width: 75px !important;
+	border-radius: 7px;
+	
+}
+.sex-men{
+	color: #FFFFFF;
+	height: 20px;
+	display: inline-block;
+	border-radius: 4px;
+	font-size: 12px !important;
+	margin-top: 5px;
+}
+.boy-style{
+	background:#9ABAEB ;
+}
+.girl-style{
+	background: #F08FB3;
+	
+}
+.user-content{
+	/*margin-top: 15px;*/
+	margin:20px 0px 0px 0px ;
+	border-top: 1px dashed #d8d8d8;
+	padding-top: 10px;
+}
+.user-content p{
+	line-height: 25px;
+}
+.user-content p span{
+	margin: 10px;
+	/*line-height: 15px !important;*/
+}
+ .public-l-content-icon{
+ 	color:#66CCEE ;
+ 	font-size: 30px !important;
+ }
+ .content-icon-yd{
+ 	color: #F7BC61;
+ 	
+ }
+.public-l-content-text{
+	font-size: 20px;
+	color: #000000;
+}
+/*详情页面设置*/
+.details-home {
+	
+}
+/*.mui-pull-left{
+	border:1px solid red;
+	margin-top: 0px !important;}*/
+/*邀约详情设置*/
+/*.mui-table-view-cell.mui-media{
+	margin-top: 30px 0px !important;
+	border: 5px solid red;
+	
+}*/
+.user-list-details ul li{
+	/*border: 5px solid red;*/
+	margin-top:40px ;
+	padding: 18px;
+	
+}
+/*.user-list-details ul li img{
+	border: 1px solid red;
+}*/
+.details-content{
+	background: #FFFFFF;
+}
+.details-content .user-content-details{
+	margin:5px 0px 0px 0px ;
+	padding-top: 10px;
+}
+.user-content-details p span{
+	line-height: 25px;
+	font-size: 19px;
+	margin:10px ;
+}
+.something{
+	background: #FFFFFF;
+	margin:5px 0px 0px 0px ;
+	padding: 10px;
+	
+}
+.something p{
+	font-size: 20px;
+}
+.picture-home .pt-mg{
+    background: #FFFFFF;
+    margin-top: 10px;
+}
+.picture-home .pt-mg img{
+	width:32%;
+}
+/*底部导航的两个按钮*/
+.bottom-btn {
+	
+	height:40px;
+/*	border: 1px solid red;*/
+	position: fixed;
+	bottom: 0px;
+    background: #12A86B;
+    width: 100%;
+}
+.bottom-btn a{
+	color: #FFFFFF;
+	display: inline-block;
+	width: 33%;
+	border-right: 1px solid #FFFFFF;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+	font-size: 25px;
+}
+.bottom-btn button{
+	height:40px;
+/*	border: 1px solid red;*/
+	position: fixed;
+	bottom: 0px;
+    background: #12A86B;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 15px;
+	
+}
+.bottom-left-btn{
+	
+	border-right:0px !important;
+}
+/*发布邀约头部布局*/
+
+
+.public-top-style 
+{   
+	margin-top: 50px !important;
+}
+.release-content ul li a{
+	/*border: 1px solid red;*/
+	padding: 16px !important;
+}
+.release-content2{
+	margin-top: 5px;
+}
+.place-1{
+	position: absolute;
+	right: 30px;
+	color: #999999;
+}
+.place-2{
+	position: absolute;
+	right: 20px;
+	top: 15px;
+	
+}
+.place-2 a{
+	color: #999999 !important;
+	padding:0px 10px;
+	
+}
+.place-2  span{
+	border-left: 1px solid #999999;
+}
+/*复选框设置*/
+.checkbox-content1{
+	/*border: 1px solid red;*/
+	width: 40%;
+	
+}
+.mui-input-speech
+{
+	display: inline-block;
+	margin-top: 5px;
+}
+
+.checkbox-content2{
+/*	border: 1px solid blue;*/
+	width: 60%;
+	position: absolute;
+	right:0px ;
+	display: inline;
+	
+}
+.mui-input-speech label{
+	margin-top: 8px;
+}
+/*改变选择颜色*/
+.mui-checkbox input[type=checkbox]:checked:before, .mui-radio input[type=radio]:checked:before{
+	color:#12A86B ;
+	
+}
+.release-textarea{
+	position: relative;
+	background: #FFFFFF;
+}
+.release-textarea textarea{
+	height:170px;
+	border:0px;
+}
+.release-textarea span{
+	width:65px;
+	height:65px;
+	border:1px solid #d8d8d8;
+	color:#d8d8d8;
+	text-align: center;
+	line-height: 50px;
+	margin-bottom:10px;
+	margin-left:10px;
+}
+/*聊天页面设置*/
+/*左边聊天*/
+.public-chat-style{
+/*	background: red;*/
+	width:90%;
+	margin:0px 0px !important;
+}
+.chat-style-left{
+	/*background: red;*/
+	float: left;
+	width:90%;
+	margin: 10px 0px;
+	
+}
+.chat-style-left img.left-person{
+	width: 75px;
+	height: 75px;
+	float: left;
+	margin-top: 4px;
+	margin-left: 5px;
+}
+.chat-kuang-left{
+	background: #FFFFFF;
+	max-width: 70%;
+	min-height: 50px;
+	/*margin-top: 30px;*/
+	margin-left: 90px;
+	padding: 10px 10px 5px 10px;
+	border-radius:4px;
+	position: relative;
+
+	
+}
+.chat-kuang-left p{
+	font-size: 15px;
+	color: #000000;
+}
+/*右边聊天设置*/
+.chat-style-right{
+	float: right;
+	/*background: blue !important;*/
+	width:90%;
+	margin: 10px 0px;
+	
+}
+.chat-style-right img.right-person{
+	width: 75px;
+	height: 75px;
+	float: right;
+	margin-top: 30px;
+	margin-right: 5px;
+}
+.chat-kuang-right{
+	background: #B1E766;
+	max-width: 70%;
+	min-height: 50px;
+	float: right;
+	margin-top: 30px;
+	margin-right: 8px;
+	padding: 10px 10px 5px 10px;
+	border-radius:4px;
+	position: relative;
+
+}
+.chat-kuang-right p{
+	font-size: 15px;
+	color: #000000;
+}
+.chat-kuang-left span{
+	position: absolute;
+	color: #FFFFFF;
+	top: 15px;
+	left: -10px;
+/*	border: 1px solid #000000;*/
+}
+.chat-kuang-right span{
+	position: absolute;
+	color: #B1E766;
+	top: 15px;
+	right: -10px;
+/*	border: 1px solid #000000;*/
+}
+/*聊天时间*/
+.chat-box-time {
+	text-align: center;
+	/*margin: 10px 0px;
+	background: red;*/
+	/*position: absolute;
+	top: 355px;
+	left: 155px;*/
+	
+}
+.chat-box-time span{
+	background:#D4D4D4;
+	color:#fff;
+	padding: 2px 4px;
+	border-radius:3px;
+}
+/*底部发送框*/
+.chat-bottom-btn{
+	background: #fff;
+	height:40px;
+	/*padding:1px 4px;*/
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	display:inline-block
+}
+.chat-bottom-btn input{
+	width: 80%;
+	/*padding:1px 4px;*/
+	position: absolute;
+	bottom: -15px;
+	left: 0px;
+	border: 1px solid #999999;
+	
+}
+.chat-bottom-btn button{
+	background: #EFEFF4;
+	color: #999999;
+	width: 19%;
+	height: 36px;
+	position: absolute;
+	right: 0px;
+	bottom: 3px;
+	float: right;
+   /* border: 1px solid red;*/
+}
+/*举报页面设置*/
+.report-textarea{
+	margin-top: 10px;
+}
+.report-style{
+	height: 80px !important;
+    
+}
+.release-textarea span{
+	width:60px;
+	height:60px;
+	margin-left:20px;
+}
+.report-text p{
+	padding: 15px 5px;
+	font-size: 15px;
+	
+}
+/*报名管理界面性别年龄图标设置*/
+.messager{
+	position: relative;
+}
+.bm-message-sex{
+	margin-left: 10px;
+	margin-top: 0px;
+	height: 16px;
+	
+		
+}
+.bm-list ul li{
+	/*position: relative;*/
+	height: 100px;
+}
+.bm-style p{
+	margin:10px ;
+	margin-left:0px !important;
+	
+}
+.bm-style .dianhua,.duanxin,.queren{
+
+	margin-right: 15px;
+	padding: 4px 18px ;
+}
+.dianhua{
+	background: #1EC876;
+	
+}
+.duanxin{
+	background: #20A3FF;
+	
+}
+.queren{
+	height: 35px;
+	background: #FF7C34;
+}
+/*发布征婚页面布局*/
+.jiyu{
+	margin-top: 10px;
+}
+.jiyu1 .jiyu-span{
+	margin-bottom: 10px;
+}
+
+.jiyu-span{
+	background:#E8712F;
+	font-size: 20px;
+	padding: 5px 20px;
+	color: #FFFFFF;
+	display: inline-block;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	
+}
+.zh-p img {
+	width: 100%;
+	border-radius: 5px;
+}
+/*个人中心设置*/
+.personal-beijingtu img{
+	width: 100%;
+	height: 200px;
+	position: r;
+	margin-top: 0px;
+	z-index: 1;
+}
+.personal-touxiang {
+	
+	position: absolute;
+	z-index: 2;
+	top: 50px;
+	left: 130px;
+	
+	
+}
+.personal-touxiang img {
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+}
+.personal-wenzi{
+	position: absolute;
+	z-index: 2;
+	text-align: center;
+	top: 160px;
+	left: 110px;
+}
+.personal-wenzi .one{
+		font-size: 20px;
+		color: #FFFFFF;
+}
+.personal-wenzi .two{
+	   font-size: 15px;
+	   color: #FFFFFF;
+	    
+}
+.personal-wenzi p{
+	padding: 5px 0px ;
+}
+.public-personal-style{
+	position: relative;
+	z-index: 2;
+	
+}
+.personal-menu {
+	/*background: red;*/
+	
+/*	top: 200px;*/
+   margin-top: 0px;
+	left: 0px;
+	
+	
+}
+.personal-menu a{
+	display: inline-block;
+	margin: 0px 30px;
+	text-align: center;
+}
+.personal-menu a p{
+	height: 15px;
+	
+}
+.personal-list{
+	/*top: 250px;*/
+	width: 100%;
+	margin-top: 20px;
+}
+.personal-list-icon {
+	font-size: 20px;
+	text-align: center;
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+    /*background: red;*/
+	line-height: 35px;
+	border-radius: 100px;
+	/*padding: 10px;*/
+	
+}
+.personal-list .personal-list-icon{
+	font-size: 20px;
+}
+.personal-list span,.personal-list2 span{
+	margin-right: 5px;
+}
+/*修改信息页面设置*/
+.change-message .mui-input-row label{
+	width: 20%;
+}
+.change-message .mui-input-row label~input, .mui-input-row label~select, .mui-input-row label~textarea {
+	width: 80%;
+	text-align: right;
+}
+ .change-message .span2{
+ 	/*background: red;*/
+	float: right;
+	color: #999999;
+	
+}
+/*会员中心设置*/
+.vip-center-style .vip-tequan{
+	/*border: 1px solid red;*/
+	padding: 10px;
+	font-size: 15px;
+}
+/*开通会员设置*/
+.public-content-padding{
+	padding: 2px 15px;
+}
+.open-vip-div{
+	/*border:2px solid red;*/
+}
+.vip-div-top{
+	position: relative;
+	top: 0px;
+	/*background: orange;*/
+}
+.vip-div-bottom{
+	display: none;
+	margin:108px 0px;
+}
+.vip-div-top div{
+	width:48%;
+	float: left;
+	background: #fff;
+	margin:0px 1%;
+	border:2px solid #fff;
+}
+.div-active{
+	border-color:#FA6F2A !important;
+}
+.vip-div-top div img{
+	width:100%;
+}
+.vip-div-top div a{
+	color:#FA6F2A;
+	display: block;
+	height:25px;
+	line-height: 25px;
+	text-align: center;
+}
+.vip-rmb{
+	color:#FA6F2A;
+}
+.vip-span{
+	width:50px;
+	display: inline-block;
+	margin-right:15px;
+}
+.mui-table-view-radio .mui-table-view-cell .mui-navigate-right:after{
+	color:#FA6F2A;
+}
+.vip-rmb{
+	margin:80px 0px;
+}
+.vip-cost{
+	/*border: 1px solid red;*/
+	
+}
+.vip-cost span{
+	color: #323232;
+}
+.vip-cost .cost2{
+	color: #FA6F2A;
+	border-bottom: 1px solid #FA6F2A;
+}
+.bottom-two-button{
+	/*background: red;*/
+	
+}
+.bottom-two-button button{
+	/*border: 2px solid green;*/
+	width: 100%;
+	margin: 7px 0px;
+	height: 40px;
+}
+.c-btn1{
+	background:#12A86B;
+	color: #FFFFFF;
+	font-size: 15px;
+}
+.c-btn2{
+	background:#FA6F2A ;
+	color: #ffffff;
+	font-size: 15px;
+}
+/*关于我们页面布局*/
+.about-style{
+	position: fixed;
+	top: 150px;
+	left: 110px;
+}
+.about-style img{
+	width: 150px;
+	border-radius: 20px;
+}
+.about-style p{
+	width: 100%;
+	text-align: center;
+}
+.about-bottom{
+	position: fixed;
+	bottom: 20px;
+	left: 110px;
+	
+}
+/*设置页面布局*/
+.setting-style{
+	/*border: 1px solid red;*/
+	width: 100%;
+	margin-top: 10px;
+}
+.setting-style .personal-list-icon{
+	/*border: 1px solid black;*/
+	font-size: 30px;
+	/*border: 1px solid red;*/
+	position: absolute;
+	bottom: 10px;
+}
+.setting-style .qingchu{
+	font-size: 35px;
+}
+.setting-style .tuichu{
+	position: absolute;
+	bottom: 5px;
+	
+}
+.setting-style .one{
+	
+	margin-left: 40px ;
+}
+/*绑定手机页面布局*/
+.phone-binding-style ul  li {
+	margin-top: 320px;
+	
+	
+}
+.phone-div p{
+	position: relative;
+	margin-top: 10px;
+}
+/*消息页面*/
+.message ul li img{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	float: left;
+	border-radius: 100px;
+}
+.message  .one{
+	color: #000000;
+	font-size: 18px;
+	margin-left: 15px;
+}
+.message ul li a{
+	font-size: 15px;
+	color: #929292 !important;
+}
+
